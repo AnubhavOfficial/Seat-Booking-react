@@ -1,0 +1,29 @@
+
+
+.section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.section > div {
+    border: 1px solid black;
+}
+.section > div:hover {
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: grey;
+}
+.booked {
+    background-color: #19a0d9;
+}
+
+.section .disabled:hover {
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 10px;
+}
